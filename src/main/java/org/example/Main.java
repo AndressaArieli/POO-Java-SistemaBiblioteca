@@ -1,6 +1,5 @@
 package org.example;
 
-import org.example.Categoria.CategoriaView;
 import org.example.Login.LoginView;
 
 import javax.swing.*;
@@ -19,9 +18,6 @@ public class Main {
                 opcoes,
                 opcoes[0]
         );
-
-        boolean isAdmin = (escolha == 0);
-        SwingUtilities.invokeLater(() -> new CategoriaView(isAdmin).setVisible(true));
-        SwingUtilities.invokeLater(() -> new LoginView().setVisible(true));
+            SwingUtilities.invokeLater(() -> new LoginView().setVisible(true));
     }
 }

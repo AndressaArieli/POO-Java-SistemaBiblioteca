@@ -1,7 +1,9 @@
 package org.example.Login;
 import org.example.Usuario.Usuario;
 import org.example.Usuario.UsuarioDAO;
-import org.example.Categoria.CategoriaView;  // Se estiver usando JFrame para categorias
+import org.example.Categoria.CategoriaView;
+import org.example.TelaInicial.TelaInicial;
+
 
 import javax.swing.*;
 import java.awt.*;
